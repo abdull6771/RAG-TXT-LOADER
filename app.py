@@ -12,7 +12,7 @@ UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Replace with your OpenAI key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "your api"
 
 # Global vars
 retriever = None
